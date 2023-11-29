@@ -1,0 +1,98 @@
+@media only screen and (max-width: 480px){
+.cajacuantica{
+    width:100%;
+    
+}
+}
+
+.cajacuantica{
+    margin-top: 7%;
+}
+.bannerheader {
+    background-image: url(../img/background-banner.png);
+    
+}
+
+
+.parrafobanner{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding: 5%;
+    margin-top: 64px;
+    font-size: 24px;
+}
+
+.parrafo1{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    line-height: 28px;
+    font-size: 20px;
+    
+    
+}
+
+.videomiro{
+    margin-bottom: 10%;
+}
+
+
+.titulo-card{
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    color: white;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.subtitulo-card{
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #F5E04F;
+    text-align: left;
+}
+
+.texto-card{
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+@media (max-width: 450px) {
+    .titulo-card, .subtitulo-card, .texto-card {
+        text-align: center;
+    }
+}
+
+.cardintegrantes {
+    margin-bottom: 0%;
+}
+
+.microfono{
+    width: 100%;
+}
+
+.parrafobatallas {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    padding-bottom: 30px;
+    padding-top: 90px;
+    padding-left: 25px;
+    padding-right: 20px;
+    text-align: left;
+
+}
+
+
+      
