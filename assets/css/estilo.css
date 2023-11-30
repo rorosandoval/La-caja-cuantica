@@ -1,11 +1,22 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
+body {
+    position: relative;
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Rubik', sans-serif;
     background-color: #000;
-
-
 }
+
+footer {
+    position: absolute;
+
+    width: 100%;
+  }
+  
 
 .navlink {
     font-weight: 700;
@@ -188,8 +199,8 @@ img:hover {
 
 .boton-trivia {
     position: fixed;
-    top: 70%;
-    right: 6%;
+    top: 74%;
+    right: 7.5%;
     width: 140px;
     height: 140px;
     background-image: url(../img/boton.png);
@@ -201,8 +212,16 @@ img:hover {
 
 .boton-trivia:hover {
     cursor: pointer;
-    filter:brightness(0.7);
-    text-shadow: 0 0 20px #fff;
+    position: fixed;
+    top: 71%;
+    right: 6%;
+    width: 185px;
+    height: 185px;
+    background-image: url(../img/botonhover.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    
 }
 
 video:hover {
@@ -215,4 +234,36 @@ svg:hover {
     cursor: pointer;
     filter:brightness(200);
     text-shadow: 0 0 30px #fff;
+}
+
+.txt-footer {
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+@media (max-width: 450px) {
+    .txt-footer {
+        text-align: center;
+    }
+}
+
+.rrss {
+    text-align: right!important;
+}
+
+@media (max-width: 450px) {
+    .rrss {
+        text-align: center!important;
+    }
+}
+
+.orden {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
 }
